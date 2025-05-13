@@ -18,3 +18,8 @@ if __name__ == "__main__":
     # Simple forward pass
     output = np.dot(inputs, weights) + bias
     print(f"Neural Network Output: {output}")
+
+    print(greet(name))
+# This is a simple test script to demonstrate the use of numpy and a greeting function.
+# It includes a simple neural network forward pass and a greeting function. 
+# The script is designed to be run as a standalone program.
