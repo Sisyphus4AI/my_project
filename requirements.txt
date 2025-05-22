@@ -1,5 +1,5 @@
 numpy
-pandas
 matplotlib
-tensorflow
+pytorch>=1.7.0
+torchvision
 scikit-learn
