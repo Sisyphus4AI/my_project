@@ -33,4 +33,9 @@ if __name__ == "__main__":
                   loss='sparse_categorical_crossentropy',
                   metrics=['accuracy'])
 
-    model.summary()
+    model.summary()     
+
+     
+    # Note: You can train the model using model.fit() with your dataset
+    # Example: model.fit(train_images, train_labels, epochs=10, validation_data=(val_images, val_labels))
+    
